@@ -1,0 +1,637 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8020F3F01E8F359B00C80837 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8020F3EF1E8F359B00C80837 /* main.m */; };
+		8020F3F31E8F359B00C80837 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8020F3F21E8F359B00C80837 /* AppDelegate.m */; };
+		8020F3F61E8F359B00C80837 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8020F3F51E8F359B00C80837 /* ViewController.m */; };
+		8020F3F91E8F359B00C80837 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8020F3F71E8F359B00C80837 /* Main.storyboard */; };
+		8020F3FB1E8F359B00C80837 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8020F3FA1E8F359B00C80837 /* Assets.xcassets */; };
+		8020F3FE1E8F359B00C80837 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8020F3FC1E8F359B00C80837 /* LaunchScreen.storyboard */; };
+		8020F4091E8F359C00C80837 /* QCCViewRoundRoundTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8020F4081E8F359C00C80837 /* QCCViewRoundRoundTests.m */; };
+		8020F4141E8F359C00C80837 /* QCCViewRoundRoundUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8020F4131E8F359C00C80837 /* QCCViewRoundRoundUITests.m */; };
+		8020F4231E8F368000C80837 /* QCCViewRoundRound.m in Sources */ = {isa = PBXBuildFile; fileRef = 8020F4221E8F368000C80837 /* QCCViewRoundRound.m */; };
+		8020F4281E8F36E800C80837 /* testtttttttt.m in Sources */ = {isa = PBXBuildFile; fileRef = 8020F4251E8F36E800C80837 /* testtttttttt.m */; };
+		8020F4291E8F36E800C80837 /* TableViewCellsdfsdf.m in Sources */ = {isa = PBXBuildFile; fileRef = 8020F4271E8F36E800C80837 /* TableViewCellsdfsdf.m */; };
+		E630D4E36F578B168DAE438F /* libPods-QCCViewRoundRound.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 968469E6F66BEFF997E35251 /* libPods-QCCViewRoundRound.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8020F4051E8F359C00C80837 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8020F3E31E8F359B00C80837 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8020F3EA1E8F359B00C80837;
+			remoteInfo = QCCViewRoundRound;
+		};
+		8020F4101E8F359C00C80837 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8020F3E31E8F359B00C80837 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8020F3EA1E8F359B00C80837;
+			remoteInfo = QCCViewRoundRound;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2FC8E42D30428A553393A0D8 /* Pods-QCCViewRoundRound.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QCCViewRoundRound.release.xcconfig"; path = "Pods/Target Support Files/Pods-QCCViewRoundRound/Pods-QCCViewRoundRound.release.xcconfig"; sourceTree = "<group>"; };
+		8020F3EB1E8F359B00C80837 /* QCCViewRoundRound.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QCCViewRoundRound.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8020F3EF1E8F359B00C80837 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8020F3F11E8F359B00C80837 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8020F3F21E8F359B00C80837 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8020F3F41E8F359B00C80837 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8020F3F51E8F359B00C80837 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8020F3F81E8F359B00C80837 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8020F3FA1E8F359B00C80837 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8020F3FD1E8F359B00C80837 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8020F3FF1E8F359B00C80837 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8020F4041E8F359C00C80837 /* QCCViewRoundRoundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QCCViewRoundRoundTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8020F4081E8F359C00C80837 /* QCCViewRoundRoundTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QCCViewRoundRoundTests.m; sourceTree = "<group>"; };
+		8020F40A1E8F359C00C80837 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8020F40F1E8F359C00C80837 /* QCCViewRoundRoundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QCCViewRoundRoundUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8020F4131E8F359C00C80837 /* QCCViewRoundRoundUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QCCViewRoundRoundUITests.m; sourceTree = "<group>"; };
+		8020F4151E8F359C00C80837 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8020F4211E8F368000C80837 /* QCCViewRoundRound.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QCCViewRoundRound.h; sourceTree = "<group>"; };
+		8020F4221E8F368000C80837 /* QCCViewRoundRound.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QCCViewRoundRound.m; sourceTree = "<group>"; };
+		8020F4241E8F36E800C80837 /* testtttttttt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testtttttttt.h; sourceTree = "<group>"; };
+		8020F4251E8F36E800C80837 /* testtttttttt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testtttttttt.m; sourceTree = "<group>"; };
+		8020F4261E8F36E800C80837 /* TableViewCellsdfsdf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCellsdfsdf.h; sourceTree = "<group>"; };
+		8020F4271E8F36E800C80837 /* TableViewCellsdfsdf.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCellsdfsdf.m; sourceTree = "<group>"; };
+		968469E6F66BEFF997E35251 /* libPods-QCCViewRoundRound.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QCCViewRoundRound.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4ED36FFE53D64EA5AAF4014 /* Pods-QCCViewRoundRound.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QCCViewRoundRound.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QCCViewRoundRound/Pods-QCCViewRoundRound.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8020F3E81E8F359B00C80837 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E630D4E36F578B168DAE438F /* libPods-QCCViewRoundRound.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8020F4011E8F359B00C80837 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8020F40C1E8F359C00C80837 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8020F3E21E8F359B00C80837 = {
+			isa = PBXGroup;
+			children = (
+				8020F3ED1E8F359B00C80837 /* QCCViewRoundRound */,
+				8020F4071E8F359C00C80837 /* QCCViewRoundRoundTests */,
+				8020F4121E8F359C00C80837 /* QCCViewRoundRoundUITests */,
+				8020F3EC1E8F359B00C80837 /* Products */,
+				AB46D8EE8FBB3DCA4176ED73 /* Pods */,
+				C27969B8342C18EAF0D63637 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8020F3EC1E8F359B00C80837 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8020F3EB1E8F359B00C80837 /* QCCViewRoundRound.app */,
+				8020F4041E8F359C00C80837 /* QCCViewRoundRoundTests.xctest */,
+				8020F40F1E8F359C00C80837 /* QCCViewRoundRoundUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8020F3ED1E8F359B00C80837 /* QCCViewRoundRound */ = {
+			isa = PBXGroup;
+			children = (
+				8020F4211E8F368000C80837 /* QCCViewRoundRound.h */,
+				8020F4221E8F368000C80837 /* QCCViewRoundRound.m */,
+				8020F3F11E8F359B00C80837 /* AppDelegate.h */,
+				8020F3F21E8F359B00C80837 /* AppDelegate.m */,
+				8020F3F41E8F359B00C80837 /* ViewController.h */,
+				8020F3F51E8F359B00C80837 /* ViewController.m */,
+				8020F4241E8F36E800C80837 /* testtttttttt.h */,
+				8020F4251E8F36E800C80837 /* testtttttttt.m */,
+				8020F4261E8F36E800C80837 /* TableViewCellsdfsdf.h */,
+				8020F4271E8F36E800C80837 /* TableViewCellsdfsdf.m */,
+				8020F3F71E8F359B00C80837 /* Main.storyboard */,
+				8020F3FA1E8F359B00C80837 /* Assets.xcassets */,
+				8020F3FC1E8F359B00C80837 /* LaunchScreen.storyboard */,
+				8020F3FF1E8F359B00C80837 /* Info.plist */,
+				8020F3EE1E8F359B00C80837 /* Supporting Files */,
+			);
+			path = QCCViewRoundRound;
+			sourceTree = "<group>";
+		};
+		8020F3EE1E8F359B00C80837 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8020F3EF1E8F359B00C80837 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8020F4071E8F359C00C80837 /* QCCViewRoundRoundTests */ = {
+			isa = PBXGroup;
+			children = (
+				8020F4081E8F359C00C80837 /* QCCViewRoundRoundTests.m */,
+				8020F40A1E8F359C00C80837 /* Info.plist */,
+			);
+			path = QCCViewRoundRoundTests;
+			sourceTree = "<group>";
+		};
+		8020F4121E8F359C00C80837 /* QCCViewRoundRoundUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8020F4131E8F359C00C80837 /* QCCViewRoundRoundUITests.m */,
+				8020F4151E8F359C00C80837 /* Info.plist */,
+			);
+			path = QCCViewRoundRoundUITests;
+			sourceTree = "<group>";
+		};
+		AB46D8EE8FBB3DCA4176ED73 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C4ED36FFE53D64EA5AAF4014 /* Pods-QCCViewRoundRound.debug.xcconfig */,
+				2FC8E42D30428A553393A0D8 /* Pods-QCCViewRoundRound.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C27969B8342C18EAF0D63637 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				968469E6F66BEFF997E35251 /* libPods-QCCViewRoundRound.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8020F3EA1E8F359B00C80837 /* QCCViewRoundRound */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8020F4181E8F359C00C80837 /* Build configuration list for PBXNativeTarget "QCCViewRoundRound" */;
+			buildPhases = (
+				2BDD4E16131F31FB91AFDF90 /* [CP] Check Pods Manifest.lock */,
+				8020F3E71E8F359B00C80837 /* Sources */,
+				8020F3E81E8F359B00C80837 /* Frameworks */,
+				8020F3E91E8F359B00C80837 /* Resources */,
+				535F0B573D1B6D2F7176231E /* [CP] Embed Pods Frameworks */,
+				19437AF791ED950493BC4962 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QCCViewRoundRound;
+			productName = QCCViewRoundRound;
+			productReference = 8020F3EB1E8F359B00C80837 /* QCCViewRoundRound.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8020F4031E8F359B00C80837 /* QCCViewRoundRoundTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8020F41B1E8F359C00C80837 /* Build configuration list for PBXNativeTarget "QCCViewRoundRoundTests" */;
+			buildPhases = (
+				8020F4001E8F359B00C80837 /* Sources */,
+				8020F4011E8F359B00C80837 /* Frameworks */,
+				8020F4021E8F359B00C80837 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8020F4061E8F359C00C80837 /* PBXTargetDependency */,
+			);
+			name = QCCViewRoundRoundTests;
+			productName = QCCViewRoundRoundTests;
+			productReference = 8020F4041E8F359C00C80837 /* QCCViewRoundRoundTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8020F40E1E8F359C00C80837 /* QCCViewRoundRoundUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8020F41E1E8F359C00C80837 /* Build configuration list for PBXNativeTarget "QCCViewRoundRoundUITests" */;
+			buildPhases = (
+				8020F40B1E8F359C00C80837 /* Sources */,
+				8020F40C1E8F359C00C80837 /* Frameworks */,
+				8020F40D1E8F359C00C80837 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8020F4111E8F359C00C80837 /* PBXTargetDependency */,
+			);
+			name = QCCViewRoundRoundUITests;
+			productName = QCCViewRoundRoundUITests;
+			productReference = 8020F40F1E8F359C00C80837 /* QCCViewRoundRoundUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8020F3E31E8F359B00C80837 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "qxc122@126.com";
+				TargetAttributes = {
+					8020F3EA1E8F359B00C80837 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = HVHHKYW9Z7;
+						ProvisioningStyle = Automatic;
+					};
+					8020F4031E8F359B00C80837 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = HVHHKYW9Z7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8020F3EA1E8F359B00C80837;
+					};
+					8020F40E1E8F359C00C80837 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = HVHHKYW9Z7;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8020F3EA1E8F359B00C80837;
+					};
+				};
+			};
+			buildConfigurationList = 8020F3E61E8F359B00C80837 /* Build configuration list for PBXProject "QCCViewRoundRound" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8020F3E21E8F359B00C80837;
+			productRefGroup = 8020F3EC1E8F359B00C80837 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8020F3EA1E8F359B00C80837 /* QCCViewRoundRound */,
+				8020F4031E8F359B00C80837 /* QCCViewRoundRoundTests */,
+				8020F40E1E8F359C00C80837 /* QCCViewRoundRoundUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8020F3E91E8F359B00C80837 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8020F3FE1E8F359B00C80837 /* LaunchScreen.storyboard in Resources */,
+				8020F3FB1E8F359B00C80837 /* Assets.xcassets in Resources */,
+				8020F3F91E8F359B00C80837 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8020F4021E8F359B00C80837 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8020F40D1E8F359C00C80837 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		19437AF791ED950493BC4962 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QCCViewRoundRound/Pods-QCCViewRoundRound-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2BDD4E16131F31FB91AFDF90 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		535F0B573D1B6D2F7176231E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QCCViewRoundRound/Pods-QCCViewRoundRound-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8020F3E71E8F359B00C80837 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8020F4231E8F368000C80837 /* QCCViewRoundRound.m in Sources */,
+				8020F3F61E8F359B00C80837 /* ViewController.m in Sources */,
+				8020F4281E8F36E800C80837 /* testtttttttt.m in Sources */,
+				8020F4291E8F36E800C80837 /* TableViewCellsdfsdf.m in Sources */,
+				8020F3F31E8F359B00C80837 /* AppDelegate.m in Sources */,
+				8020F3F01E8F359B00C80837 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8020F4001E8F359B00C80837 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8020F4091E8F359C00C80837 /* QCCViewRoundRoundTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8020F40B1E8F359C00C80837 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8020F4141E8F359C00C80837 /* QCCViewRoundRoundUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8020F4061E8F359C00C80837 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8020F3EA1E8F359B00C80837 /* QCCViewRoundRound */;
+			targetProxy = 8020F4051E8F359C00C80837 /* PBXContainerItemProxy */;
+		};
+		8020F4111E8F359C00C80837 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8020F3EA1E8F359B00C80837 /* QCCViewRoundRound */;
+			targetProxy = 8020F4101E8F359C00C80837 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8020F3F71E8F359B00C80837 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8020F3F81E8F359B00C80837 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8020F3FC1E8F359B00C80837 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8020F3FD1E8F359B00C80837 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8020F4161E8F359C00C80837 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8020F4171E8F359C00C80837 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8020F4191E8F359C00C80837 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4ED36FFE53D64EA5AAF4014 /* Pods-QCCViewRoundRound.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HVHHKYW9Z7;
+				INFOPLIST_FILE = QCCViewRoundRound/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tempus.QCCViewRoundRound;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8020F41A1E8F359C00C80837 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FC8E42D30428A553393A0D8 /* Pods-QCCViewRoundRound.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HVHHKYW9Z7;
+				INFOPLIST_FILE = QCCViewRoundRound/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tempus.QCCViewRoundRound;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8020F41C1E8F359C00C80837 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = HVHHKYW9Z7;
+				INFOPLIST_FILE = QCCViewRoundRoundTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tempus.QCCViewRoundRoundTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QCCViewRoundRound.app/QCCViewRoundRound";
+			};
+			name = Debug;
+		};
+		8020F41D1E8F359C00C80837 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = HVHHKYW9Z7;
+				INFOPLIST_FILE = QCCViewRoundRoundTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tempus.QCCViewRoundRoundTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QCCViewRoundRound.app/QCCViewRoundRound";
+			};
+			name = Release;
+		};
+		8020F41F1E8F359C00C80837 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = HVHHKYW9Z7;
+				INFOPLIST_FILE = QCCViewRoundRoundUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tempus.QCCViewRoundRoundUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QCCViewRoundRound;
+			};
+			name = Debug;
+		};
+		8020F4201E8F359C00C80837 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = HVHHKYW9Z7;
+				INFOPLIST_FILE = QCCViewRoundRoundUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tempus.QCCViewRoundRoundUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QCCViewRoundRound;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8020F3E61E8F359B00C80837 /* Build configuration list for PBXProject "QCCViewRoundRound" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8020F4161E8F359C00C80837 /* Debug */,
+				8020F4171E8F359C00C80837 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8020F4181E8F359C00C80837 /* Build configuration list for PBXNativeTarget "QCCViewRoundRound" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8020F4191E8F359C00C80837 /* Debug */,
+				8020F41A1E8F359C00C80837 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8020F41B1E8F359C00C80837 /* Build configuration list for PBXNativeTarget "QCCViewRoundRoundTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8020F41C1E8F359C00C80837 /* Debug */,
+				8020F41D1E8F359C00C80837 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8020F41E1E8F359C00C80837 /* Build configuration list for PBXNativeTarget "QCCViewRoundRoundUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8020F41F1E8F359C00C80837 /* Debug */,
+				8020F4201E8F359C00C80837 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8020F3E31E8F359B00C80837 /* Project object */;
+}

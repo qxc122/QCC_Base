@@ -15,8 +15,9 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
+
   s.name         = "QCC_Base"
-  s.version      = "1.0.0"
+  s.version      = "1.0.2"
   s.summary      = "QCC_Base 基础类"
 
   # This description is used to generate tags and improve search results.
@@ -80,7 +81,7 @@ s.homepage     = "https://github.com/qxc122"
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "git@github.com:qxc122/QCC_Base.git", :tag => "#{s.version}" }
+  s.source       = { :git => "git@github.com:qxc122/QCC_Base.git", :tag => "v1.0.2" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

@@ -18,6 +18,9 @@
 		8020F4231E8F368000C80837 /* QCCViewRoundRound.m in Sources */ = {isa = PBXBuildFile; fileRef = 8020F4221E8F368000C80837 /* QCCViewRoundRound.m */; };
 		8020F4281E8F36E800C80837 /* testtttttttt.m in Sources */ = {isa = PBXBuildFile; fileRef = 8020F4251E8F36E800C80837 /* testtttttttt.m */; };
 		8020F4291E8F36E800C80837 /* TableViewCellsdfsdf.m in Sources */ = {isa = PBXBuildFile; fileRef = 8020F4271E8F36E800C80837 /* TableViewCellsdfsdf.m */; };
+		80875BD41FA868C800FD4571 /* QCC_Base.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 80875BD31FA868C800FD4571 /* QCC_Base.podspec */; };
+		80875BD81FA8695F00FD4571 /* QCC_BaseCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 80875BD71FA8695F00FD4571 /* QCC_BaseCell.m */; };
+		80875BDA1FA86AD200FD4571 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 80875BD91FA86AD200FD4571 /* LICENSE */; };
 		E630D4E36F578B168DAE438F /* libPods-QCCViewRoundRound.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 968469E6F66BEFF997E35251 /* libPods-QCCViewRoundRound.a */; };
 /* End PBXBuildFile section */
 
@@ -62,6 +65,10 @@
 		8020F4251E8F36E800C80837 /* testtttttttt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testtttttttt.m; sourceTree = "<group>"; };
 		8020F4261E8F36E800C80837 /* TableViewCellsdfsdf.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCellsdfsdf.h; sourceTree = "<group>"; };
 		8020F4271E8F36E800C80837 /* TableViewCellsdfsdf.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCellsdfsdf.m; sourceTree = "<group>"; };
+		80875BD31FA868C800FD4571 /* QCC_Base.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = QCC_Base.podspec; sourceTree = "<group>"; };
+		80875BD61FA8695F00FD4571 /* QCC_BaseCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QCC_BaseCell.h; sourceTree = "<group>"; };
+		80875BD71FA8695F00FD4571 /* QCC_BaseCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QCC_BaseCell.m; sourceTree = "<group>"; };
+		80875BD91FA86AD200FD4571 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		968469E6F66BEFF997E35251 /* libPods-QCCViewRoundRound.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QCCViewRoundRound.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4ED36FFE53D64EA5AAF4014 /* Pods-QCCViewRoundRound.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QCCViewRoundRound.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QCCViewRoundRound/Pods-QCCViewRoundRound.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -95,6 +102,9 @@
 		8020F3E21E8F359B00C80837 = {
 			isa = PBXGroup;
 			children = (
+				80875BD91FA86AD200FD4571 /* LICENSE */,
+				80875BD51FA8693200FD4571 /* QCC_Base */,
+				80875BD31FA868C800FD4571 /* QCC_Base.podspec */,
 				8020F3ED1E8F359B00C80837 /* QCCViewRoundRound */,
 				8020F4071E8F359C00C80837 /* QCCViewRoundRoundTests */,
 				8020F4121E8F359C00C80837 /* QCCViewRoundRoundUITests */,
@@ -160,6 +170,15 @@
 				8020F4151E8F359C00C80837 /* Info.plist */,
 			);
 			path = QCCViewRoundRoundUITests;
+			sourceTree = "<group>";
+		};
+		80875BD51FA8693200FD4571 /* QCC_Base */ = {
+			isa = PBXGroup;
+			children = (
+				80875BD61FA8695F00FD4571 /* QCC_BaseCell.h */,
+				80875BD71FA8695F00FD4571 /* QCC_BaseCell.m */,
+			);
+			path = QCC_Base;
 			sourceTree = "<group>";
 		};
 		AB46D8EE8FBB3DCA4176ED73 /* Pods */ = {
@@ -292,8 +311,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				8020F3FE1E8F359B00C80837 /* LaunchScreen.storyboard in Resources */,
+				80875BD41FA868C800FD4571 /* QCC_Base.podspec in Resources */,
 				8020F3FB1E8F359B00C80837 /* Assets.xcassets in Resources */,
 				8020F3F91E8F359B00C80837 /* Main.storyboard in Resources */,
+				80875BDA1FA86AD200FD4571 /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -372,6 +393,7 @@
 				8020F4291E8F36E800C80837 /* TableViewCellsdfsdf.m in Sources */,
 				8020F3F31E8F359B00C80837 /* AppDelegate.m in Sources */,
 				8020F3F01E8F359B00C80837 /* main.m in Sources */,
+				80875BD81FA8695F00FD4571 /* QCC_BaseCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

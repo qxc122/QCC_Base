@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
 
   s.name         = "QCC_Base"
-  s.version      = "1.0.2"
+  s.version      = "1.0.3"
   s.summary      = "QCC_Base 基础类"
 
   # This description is used to generate tags and improve search results.
@@ -81,7 +81,7 @@ s.homepage     = "https://github.com/qxc122"
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "git@github.com:qxc122/QCC_Base.git", :tag => "v1.0.2" }
+  s.source       = { :git => "git@github.com:qxc122/QCC_Base.git", :tag => "v1.0.3" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -119,7 +119,8 @@ s.homepage     = "https://github.com/qxc122"
   #
 
   # s.framework  = "SomeFramework"
-  # s.frameworks = "SomeFramework", "AnotherFramework"
+   s.frameworks = "MJRefresh", "Masonry", "DZNEmptyDataSet", "UITableView+FDTemplateLayoutCell", "AFNetworking", "MBProgressHUD"
+
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"

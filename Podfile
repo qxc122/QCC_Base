@@ -8,6 +8,7 @@ target 'QCCViewRoundRound' do
     pod 'UITableView+FDTemplateLayoutCell'
     pod 'AFNetworking'
     pod 'MBProgressHUD'
+    
     pod 'SDWebImage'
 
 end

@@ -18,9 +18,9 @@ PODS:
   - Masonry (1.1.0)
   - MBProgressHUD (1.0.0)
   - MJRefresh (3.1.15)
-  - SDWebImage (4.2.0):
-    - SDWebImage/Core (= 4.2.0)
-  - SDWebImage/Core (4.2.0)
+  - SDWebImage (4.2.1):
+    - SDWebImage/Core (= 4.2.1)
+  - SDWebImage/Core (4.2.1)
   - UITableView+FDTemplateLayoutCell (1.6)
 
 DEPENDENCIES:
@@ -38,7 +38,7 @@ SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: 4890f671c94e8a0f3cf959aa731e9de2f036d71a
   MJRefresh: 9af70f5f9327a2cf87f0fb5929f35fcc2fa638ea
-  SDWebImage: b1189fd85365c18434270a11a5cad13a1e848d53
+  SDWebImage: 1fa4c9edf525b744f002db89f3f5a38b3cd4c541
   UITableView+FDTemplateLayoutCell: 5c949b4a5059c404b442926c0e80f81d10a2d66f
 
 PODFILE CHECKSUM: fc68e4c16f7add074ce99b07afa7546c9cdd6f5d

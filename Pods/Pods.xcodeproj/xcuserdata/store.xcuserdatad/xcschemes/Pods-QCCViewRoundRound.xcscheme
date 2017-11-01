@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'E09E45A14DE8D31F45F2552AE572B548'
+               BlueprintIdentifier = 'A540359EA2B0A57C9C667C736DF4995E'
                BlueprintName = 'Pods-QCCViewRoundRound'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libPods-QCCViewRoundRound.a'>

@@ -92,7 +92,9 @@ s.homepage     = "https://github.com/qxc122"
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "QCC_Base", "QCC_Base/**/*.{h,m}"
+#s.source_files  = "QCC_Base", "QCC_Base/**/*.{h,m}"
+s.source_files  = "QCC_Base/*.{h,m}"
+
 #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
@@ -118,8 +120,8 @@ s.homepage     = "https://github.com/qxc122"
   #  the lib prefix of their name.
   #
 
-  # s.framework  = "SomeFramework"
-   s.frameworks = "MJRefresh", "Masonry", "DZNEmptyDataSet", "UITableView+FDTemplateLayoutCell", "AFNetworking", "MBProgressHUD"
+# s.framework  = "Foundation"
+# s.frameworks = "MJRefresh", "Masonry", "DZNEmptyDataSet", "UITableView+FDTemplateLayoutCell", "AFNetworking", "MBProgressHUD"
 
 
   # s.library   = "iconv"
@@ -135,6 +137,6 @@ s.homepage     = "https://github.com/qxc122"
   # s.requires_arc = true
 
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
-  # s.dependency "JSONKit", "~> 1.4"
+# s.dependency "MJRefresh", "Masonry", "DZNEmptyDataSet", "UITableView+FDTemplateLayoutCell", "AFNetworking", "MBProgressHUD"
 
 end
